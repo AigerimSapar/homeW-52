@@ -25,9 +25,9 @@ class CardDeck {
         return this.deck.splice(randomIndex, 1) [0];
     }
 
-    getCards(randomMany: number): Card[] {
+    getCards(howMany: number): Card[] {
         const cards: Card [] = [];
-        for (let i = 0; i < randomMany; i++) {
+        for (let i = 0; i < howMany; i++) {
             cards.push(this.getCard());
         }
         return cards;
