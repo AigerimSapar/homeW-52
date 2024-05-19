@@ -39,7 +39,6 @@ const Card: React.FC<Props> = ({rank, suit}) => {
         <span className={`card rank-${rank} ${suit}`}>
             <span className="rank">${rank}</span>
             <span className="suit">{getSymbol(suit)}</span>
-
         </span>
 
     );
